@@ -12,6 +12,11 @@
   "author": "Gary Lake <gary.lake@gmail.com> (https://www.garylake.co.uk/)",
   "main": "./dist/vue-dynamic-heroicon.umd.js",
   "module": "./dist/vue-dynamic-heroicon.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-dynamic-heroicon.es.js",
+      "require": "./dist/vue-dynamic-heroicon.umd.js"
+    }
   },
   "scripts": {
     "dev": "vite",
