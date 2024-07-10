@@ -9,7 +9,7 @@
   "author": "Gary Lake <gary.lake@gmail.com> (https://www.garylake.co.uk/)",
   "main": "./src/index.js",
   "scripts": {
-    "prepare": "npm run build"
+    "build": "npm run build"
   },
   "dependencies": {
     "@heroicons/vue": "^2.1.4",
