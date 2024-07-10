@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.js'),
-      name: 'vue-dynamic-heroicons',
+      name: 'vue-dynamic-heroicons-rkd',
       fileName: format => `vue-dynamic-heroicon.${format}.js`,
     },
     rollupOptions: {
