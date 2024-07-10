@@ -1,6 +1,9 @@
 {
   "name": "vue-dynamic-heroicons",
   "version": "0.0.2",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/rkdgroup/vue-dynamic-heroicons.git"
