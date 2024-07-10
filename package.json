@@ -17,9 +17,9 @@
   },
   "scripts": {
     "prepare": "npm run build",
-    "dev": "../.bin/vite",
-    "build": "../.bin/vite build",
-    "preview": "../.bin/vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@heroicons/vue": "^2.1.4",
