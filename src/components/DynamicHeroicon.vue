@@ -3,8 +3,8 @@
 </template>
 
 <script>
-import * as solid from '@heroicons/vue/solid';
-import * as outline from '@heroicons/vue/outline';
+import * as solid from '@heroicons/vue/24/solid';
+import * as outline from '@heroicons/vue/24/outline';
 
 export default {
   props: {
