@@ -1,15 +1,27 @@
 {
   "name": "vue-dynamic-heroicons",
   "version": "0.0.2",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/rkdgroup/vue-dynamic-heroicons.git"
   },
   "license" : "MIT",
   "author": "Gary Lake <gary.lake@gmail.com> (https://www.garylake.co.uk/)",
-  "main": "./src/index.js",
+  "main": "./dist/vue-dynamic-heroicon.umd.js",
+  "module": "./dist/vue-dynamic-heroicon.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-dynamic-heroicon.es.js",
+      "require": "./dist/vue-dynamic-heroicon.umd.js"
+    }
+  },
   "scripts": {
-    "build": "npm run build"
+    "dev": "../.bin/vite",
+    "build": "../.bin/vite build",
+    "preview": "../.bin/vite preview"
   },
   "dependencies": {
     "@heroicons/vue": "^2.1.4",
